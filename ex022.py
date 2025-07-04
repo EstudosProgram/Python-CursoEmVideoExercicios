@@ -1,0 +1,7 @@
+nome_completo = input('Digite seu nome completo: ')
+sem_espaco = nome_completo.strip()
+divido = nome_completo.split()
+print(nome_completo.upper())
+print(nome_completo.lower())
+print('Ao todo tem {} letras'.format(len(sem_espaco) - nome_completo.count(' ')))
+print('O primeiro nome tem {} letras'.format(len(divido[0])))

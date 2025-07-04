@@ -1,0 +1,10 @@
+texto = input('Digite algo: ')
+
+print(type(texto))
+print('O {} é um numérico ? {}'.format(texto,texto.isnumeric()))
+print('O {} é alfabético ? {}'.format(texto, texto.isalpha()))
+print('O {} é alfanumérico ? {}'.format(texto, texto.isalnum()))
+print('O {} é maiúscula ? {}'.format(texto, texto.isupper()))
+print('O {} é minúscula ? {}'.format(texto, texto.islower()))
+print('O {} é capitalizada ? {}'.format(texto, texto.istitle()))
+print('O {} só tem espaço ? {}'.format(texto, texto.isspace()))
