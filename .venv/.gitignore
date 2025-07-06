@@ -1,0 +1,4 @@
+echo ".idea/" >> .gitignore
+git rm --cached -r .idea
+git add .gitignore
+git commit -m "Ignorar arquivos da IDE"

@@ -1,12 +1,20 @@
-#NÃO CONSEGUI FAZER
+#Utilizando o math
+"""from math import factorial
 num = int(input('Digite um número: '))
-mult= num
-while num != 0:
-    mult = num * (num -1)
-    print(' = {}', end='x')
-print('{}!'.format(num), end='')
+f = factorial(num)
+print('O fatorial de {} é {}'.format(num, f))"""
 
-print(' = {}',end='')
+#NÃO CONSEGUI FAZER -> resolução
+num = int(input('Digite um número: '))
+c = num
+f = 1
+print('{}! '.format(num),end='')
+while c > 0:
+    print('{}'.format(c),end='')
+    print(' x ' if c > 1 else ' = ', end='')
+    f *= c
+    c -= 1
+print('{}'.format(f),end='')
 
 #FOR - consegui
 """for c in range(num-1, 0, -1):

@@ -1,8 +1,8 @@
-n = 0
-count = 0
-s = 0
+#correção
+n = count = s = 0
+n = int(input('Digite um número: '))
 while n != 999:
-    n = int(input('Digite um número: '))
-    count += 1
     s += n
-print('Foram {} números e a soma deles deu {}'.format(count-1, s-999))
+    count += 1
+    n = int(input('Digite um número: '))
+print('Foram {} números e a soma deles deu {}'.format(count, s))

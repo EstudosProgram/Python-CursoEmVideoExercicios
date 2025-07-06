@@ -32,5 +32,6 @@ while opcao != 5:
         val1 = float(input('Digite o primeiro valor: '))
         val2 = float(input('Digite o segundo valor: '))
         sleep(1)
-
+    else:
+        print('opção inválida, tente novamente!')
 print('Obrigado, volte sempre!')

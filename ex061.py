@@ -1,9 +1,10 @@
-#Não consegui mas ficou quase lá
+#Não consegui mas ficou quase lá - PS: consegui fazer
 primeiro_termo = int(input('Digite o primeiro termo: '))
 razao = int(input('Digite a razão: '))
-pa = 0
-decimo = primeiro_termo + (10 - 1) * razao
-while pa != decimo:
-    pa += primeiro_termo*razao
-    print(pa,end='->')
+pa = primeiro_termo
+count = 1
+while count <= 10:
+    print(pa, end=' -> ')
+    pa += razao
+    count += 1
 print('Acabou')
